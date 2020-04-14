@@ -1,0 +1,121 @@
+.left{
+    display: inline-block;
+    float: left;
+    /* border: 5px solid black; */
+    margin: 0px 18px;
+
+}
+.navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 9px;
+    font-family: 'Gotu', sans-serif;}
+.right{
+    display: inline-block;
+    float: right;
+    /* border: 5px solid black; */
+    margin: 0px 18px;
+
+}
+.mid{
+    display: inline-block;
+    /* border: 5px solid black; */
+    display: block;
+    width: 50%;
+    margin: 12px auto;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+
+}
+.navbar li a:hover{
+    text-decoration: underline;
+
+
+}
+.navbar li a:active{
+    text-decoration: underline;
+
+}
+.left img{
+    width: 100px;
+    height: 90px;
+    /* background-color:cyan; */
+    filter: invert(100%);
+}
+.left p{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right .btn{
+    color:black;
+    background-color: white;
+    border:none;
+    margin: 0px 10px;
+    padding: 4px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+
+}
+.right .btn:hover{
+    color:white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.left p{
+    line-height: 0px;
+}
+.container{
+    /* border: 2px solid white; */
+    position: relative;
+    top:80px;
+    right: 150px;
+    display: inline-block;
+    /* margin: 100px 0px; */
+    padding: 10px 12px;
+    width: 33%;
+    border-radius: 5px;
+}
+.container form{
+    display: inline-block;
+}
+.container form .btn{
+    color:black;
+    background-color: white;
+    border:none;
+    margin: 0px 10px;
+    padding: 4px 14px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    margin: 15px 115px;
+
+
+
+}
+.container form .btn:hover{
+    color:white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+.container form input{
+    border-radius: 20px;
+    margin: 15px 40px;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+.container h2{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
