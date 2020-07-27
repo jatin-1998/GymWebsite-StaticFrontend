@@ -42,6 +42,10 @@
     text-decoration: underline;
 
 }
+#i1{
+    margin-left: .65rem;
+}
+
 .left img{
     width: 100px;
     height: 90px;
@@ -88,12 +92,16 @@
     display: inline-block;
 }
 .container form .btn{
+    box-sizing: border-box;
+    position: relative;
+    top: 55px;
     color:black;
-    background-color: white;
+    background-color: rgba(175, 133, 18, 0.514);
+    /* background-color: rgba(220, 20, 60, 0.486); */
     border:none;
     margin: 0px 10px;
-    padding: 4px 14px;
-    border-radius: 10px;
+    padding: 13px;
+    border-radius: 25%;
     font-size: 14px;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
@@ -104,18 +112,46 @@
 }
 .container form .btn:hover{
     color:white;
-    background-color: black;
+    /* background-color: rgba(228, 145, 145, 0.24); */
+    background-color: rgba(165, 38, 64, 0.486);
     transition-duration: 0.5s;
 }
 .container form input{
-    border-radius: 20px;
-    margin: 15px 40px;
+    border-radius: 15% 20%;
+    margin: 10px 40px;
     width: 300px;
-    padding: 10px;
+    /* padding: 10px; */
     border: none;
     text-align: center;
 }
 .container h2{
     font-family: 'Raleway', sans-serif;
     text-align: center;
+}
+form {
+    margin-left: 40px;
+}
+h2{
+    position: absolute;
+    display: flex;
+    margin-left: 75px;
+
+}
+
+form input{
+    position: relative;
+    top: 60px;
+    background: rgba(165, 42, 42, 0.315);
+    font-weight: 900;
+    font-size: medium;
+    color: bisque;
+    padding: 15px;
+}
+
+form input:hover{
+    background: rgb(212, 140, 113);
+}
+
+form input:focus{
+    background-color: rgb(141, 35, 56);
 }
